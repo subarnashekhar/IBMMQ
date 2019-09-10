@@ -1,0 +1,19 @@
+1) Open IBM mq explorer - C:\Windows\system32>strmqcfg
+
+
+2) Create a mq manager - 
+ctrmqm helloworld
+3) start the queue manager
+strmqm helloworld
+
+4) Display the queue manager 
+dspmq
+
+to display only running queue manager -
+dspmq -a
+
+5) Stop a queue manger
+endmqm helloworld
+
+6) to delete queue manager -
+dltmqm helloworld
