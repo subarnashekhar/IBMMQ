@@ -1,0 +1,22 @@
+1) docker run  -p 4848:4848 -p 8080:8080 glassfish
+2)  docker exec -it 86 /bin/bash
+
+3) Now we need to enable secure admin -
+https://javatutorial.net/glassfish-enable-secure-admin
+
+
+root@860289e1f51f:/usr/local/glassfish4# asadmin --host localhost --port 4848 change-admin-password
+Enter admin user name [default: admin]>
+Enter the admin password>
+Enter the new admin password>
+Enter the new admin password again>
+Command change-admin-password executed successfully.
+root@860289e1f51f:/usr/local/glassfish4# asadmin --host localhost --port 4848 enable-secure-admin
+Enter admin user name>  admin
+Enter admin password for user "admin">
+You must restart all running servers for the change in secure admin to take effect.
+Command enable-secure-admin executed successfully.
+root@860289e1f51f:/usr/local/glassfish4# asadmin restart-domain
+Successfully restarted the domain
+Command restart-domain executed successfully.
+root@860289e1f51f:/usr/local/glassfish4#
