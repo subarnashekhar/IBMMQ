@@ -17,3 +17,11 @@ endmqm helloworld
 
 6) to delete queue manager -
 dltmqm helloworld
+
+
+IBM mq with spring boot -
+root@ibmmq:/home/vagrant# docker run --env LICENSE=accept --env MQ_QMGR_NAME=QM1  --publish 1414:1414 --publish 9443:944
+3  --detach --env MQ_APP_PASSWORD=Test@123 ibmcom/mq:latest
+44a495dc1b8d5a04aae4e79241bc0d24b54ef2ff07d2dd529dbd542d84662256
+root@ibmmq:/home/vagrant# docker exec -it 44 /bin/bash
+bash-4.2$                                                                                                               
