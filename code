@@ -1,0 +1,15 @@
+    char MainID;
+int i;
+char Length[100];
+long file;
+char * filename = "D:\\ECMS\\certslist.txt";
+if ((file = fopen(filename, "a+" )) == NULL){lr_output_message("Unable to create %s", filename);return -1;}
+
+
+
+    
+           sprintf(Length,"\n%s,%s",lr_eval_string("{CORGUID}"),lr_eval_string("certfiletest{TimeStamp}{iterationid}.pem"));
+           i = fwrite(&Length,sizeof(Length), 1, file);
+           if ( i > 0)
+               lr_output_message("Successfully wrote %d record", i );
+           fclose(file); 
