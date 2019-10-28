@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="D:/Artifacts/com.ibm.mq.jar"/>
+	<classpathentry kind="lib" path="D:/Artifacts/com.ibm.mq.jmqi-7.1.jar"/>
+	<classpathentry kind="lib" path="D:/Artifacts/com.ibm.mqjms-7.1.jar"/>
+	<classpathentry kind="lib" path="D:/Artifacts/commons-cli-1.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Artifacts/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="D:/Artifacts/commons-dbcp2-2.5.0.jar"/>
+	<classpathentry kind="lib" path="D:/Artifacts/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="D:/Artifacts/commons-lang3-3.3.2.jar"/>
+	<classpathentry kind="lib" path="D:/Artifacts/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Artifacts/commons-pool2-2.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/Artifacts/jms.jar"/>
+	<classpathentry kind="lib" path="D:/Artifacts/slf4j-api-1.7.21.jar"/>
+	<classpathentry kind="lib" path="D:/Artifacts/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="D:/Artifacts/xml-apis.jar"/>
+	<classpathentry kind="lib" path="D:/Artifacts/xmlsec-2.0.7.jar"/>
+	<classpathentry kind="lib" path="D:/Artifacts/db2jcc4-10.1.jar"/>
+	<classpathentry kind="lib" path="D:/Artifacts/dhbcore-7.1.jar"/>
+	<classpathentry kind="lib" path="D:/Artifacts/h2-1.4.195.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
